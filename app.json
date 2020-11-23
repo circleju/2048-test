@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/example/example",
+    "pages/2048/game",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#0AA1EB",
+    "navigationBarTitleText": "小游戏",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "color": "#C6C6C6",
+    "selectedColor": "#0AA1EB",
+    "list": [{    
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/index_disable.png",
+      "selectedIconPath": "/images/index_enable.png"
+    },
+    { 
+      "pagePath": "pages/example/example",
+      "text": "列表",
+      "iconPath": "/images/list_disable.png",
+      "selectedIconPath": "/images/list_enable.png"   
+    }
+  
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

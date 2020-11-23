@@ -1,0 +1,45 @@
+/* pages/2048/game.wxss */
+/* F2B37A */
+.title{
+  width: 180rpx;
+  height: 180rpx;
+  background-color: #F2B37A;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  float: left;
+}
+
+.title text{
+  font-size: 35px;
+  font-weight: bold;
+  color: #EEE1C9;
+  margin: 5px;
+}
+.score,.highest,.restart{
+  float: right;
+  margin-right: 50rpx;
+  margin-top: 20rpx ;
+  width: 120rpx;
+  height: 90rpx;
+  background-color: #F2B37A;
+  border-radius: 15rpx;
+  text-align: center;
+}
+
+.score text,.highest text,.restart text{
+  font-size: 15px;
+  font-weight: bold;
+  color: #EEE1C9;
+}
+.restart{
+  width: 250rpx;
+  line-height: 90rpx;
+  margin-right: 70rpx;
+}
+.game-main{
+  position:absolute;
+  margin-top: 250rpx;
+  z-index: 3;
+}

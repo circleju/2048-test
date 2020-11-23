@@ -1,0 +1,45 @@
+<!--pages/2048/game.wxml-->
+<!-- <text>pages/2048/game.wxml</text> -->
+<view class="game-body">
+  <!-- 游戏头部结构 -->
+  <view class="game-heading">
+    <view class="title">
+      <view>
+        <view>
+          <text>2</text>
+          <text>0</text>
+        </view>
+        <view>
+          <text>4</text>
+          <text>8</text>
+        </view>
+      </view>
+    </view>
+    <view class="score">
+      <view>
+        <text>得分:</text>
+      </view>
+      <view>
+        <text>19000</text>
+      </view>
+    </view>
+    <view class="highest">
+      <view>
+        <text>最高分:</text>
+      </view>
+      <view>
+        <text>19000</text>
+      </view>
+    </view>
+    <view class="restart">
+      <text>新游戏</text>
+    </view>
+  </view>
+  <!-- 游戏矩阵生成 -->
+  <view class="game-main">
+    <view wx:for="{{4}}" wx:for-index="index" wx:key="index">
+      
+    </view>
+  </view>
+
+</view>
